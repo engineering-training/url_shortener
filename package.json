@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "test": "bash ./bin/test.sh -p ./src/services/prisma/",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
