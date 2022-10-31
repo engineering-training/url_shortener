@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "test": "bash ./bin/test.sh -p ./src/services/prisma/",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "reload": "bash ./bin/prisma-concatenate.sh && prisma generate --schema src/services/prisma/schema.prisma",
+    "reload": "bash ./bin/prisma-concatenate.sh -p ./src/services/prisma/ && prisma generate --schema src/services/prisma/schema.prisma",
     "watch": "npx prisma studio"
   },
   "dependencies": {
