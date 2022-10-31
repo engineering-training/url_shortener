@@ -10,4 +10,3 @@ generator client {
 model urlRecord {
   id String @id @default(auto()) @map("_id") @db.ObjectId
 }
-
